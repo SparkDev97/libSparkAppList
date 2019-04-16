@@ -122,7 +122,7 @@ If you want to add your own implementation instead of using the provided TableVi
 ```
 
 ## Authors
-SparkDev 2018
+SparkDev 2019
 Inspired by rpetrich's AppList.
 
 ## License
