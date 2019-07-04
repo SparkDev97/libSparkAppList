@@ -14,7 +14,7 @@ It's super easy to get started with libSparkAppList, let's set it up!
 
 ### Pre-Requirements
 ```
-RocketBootstrap >= 1.0.6~Beta 1 (Available from: http://rpetri.ch/repo/)
+None!
 ```
 
 ### Installation for theos
