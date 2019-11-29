@@ -99,6 +99,19 @@ So an example of checking it, depending on the scenario, could be like this:
 %end
 
 ```
+### Notification
+When a toggle is changed in libSparkAppList's table view, the preferences are updated. When this is done, (as of version 1.0.4) libSparkAppList will now post an NSNotification in the following format:
+```
+youridentifier.sparkapplistupdate
+```
+
+You can register for this notification in the standard way:
+```
+[[NSNotificationCenter defaultCenter] addObserver:self
+        selector:@selector(receiveNotification:) 
+        name:@"youridentifier.sparkapplistupdate"
+        object:nil];
+```
 
 ### 'Advanced' methods
 
