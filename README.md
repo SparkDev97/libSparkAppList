@@ -1,13 +1,9 @@
 # libSparkAppList
-This is libSparkAppList, a super simple AppList style alternative library for developers - designed for iOS 11.
+This is libSparkAppList, a super simple AppList style alternative library for developers - designed for iOS 11/12/13.
 
 It simply allows developers to retrieve a list of a users installed applications to implement whitelist/blacklist functionality in their tweaks. It is made to be as simple to implement as possible.
 
 For users, this library will just be installed as a dependency from another tweak and away you go!
-
-**Please note:** This is in no way supposed to be a replacement of AppList, rpetrich's AppList is a great tool. It was simply a tool I wrote for my own tweaks (to have a bit more control over the code), that I thought some devs could find useful. I'm sure AppList will be updated to support iOS 11 at some point as rpetrich is very active - but this is an option for developers who either cannot wait, or want to try something else! :)
-
-**At this time only the precompiled binaries and headers are available to the public - full source code will follow soon!**
 
 ## Get Started
 It's super easy to get started with libSparkAppList, let's set it up!
